@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fil">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fff0f4">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="description" content="A little something, made with love.">
+  <title>para sa mahal ko 🤍</title>
+  <link rel="icon" href="assets/heart.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"><span>♡</span><span>♡</span><span>♡</span><span>♡</span><span>♡</span><span>♡</span></div>
+  <main>
+    <section class="card welcome" id="welcome" aria-labelledby="welcome-title">
+      <p class="eyebrow">a little something, just for you</p>
+      <div class="heart" aria-hidden="true">❤️</div>
+      <h1 id="welcome-title" tabindex="-1">hi mahaal chuu <span class="face">&gt;&lt;</span></h1>
+      <p class="message">sorry mahal kooo, wag na po atatampuuu ang bebe ko huhu 🥺🤍<br><br>di na po mauulit mahal, lets fix this mahal chu wag na tayo aaway pleasee? 😭💗</p>
+      <p class="question">bati na tayo, mahal?</p>
+      <div class="choices" id="choices">
+        <button class="button yes" id="yes">Yes <span aria-hidden="true">♡</span></button>
+        <button class="button no" id="no">No</button>
+      </div>
+      <p class="tiny" id="choice-hint" aria-live="polite">made with all my love, for my favorite person ♡</p>
+    </section>
+
+    <section class="card together" id="together" aria-labelledby="together-title" hidden>
+      <p class="eyebrow">you + me, always</p>
+      <div class="small-heart" aria-hidden="true">💗</div>
+      <h1 id="together-title" tabindex="-1">yayyy! bati na kami<br>ni mahal kooo <span>🥹💗</span></h1>
+      <p class="message success-message">i love you mahal huhu sobraa kita namiss 😭🤍<br>hindi na atu magpapasaway 🥺🫶</p>
+      <div class="album">
+        <div class="photo-stage" id="photo-stage" role="region" aria-label="Mga pictures natin" aria-roledescription="carousel">
+          <img id="memory" src="assets/photos/01.jpg" width="1200" height="1600" alt="Picture nating dalawa, 1 sa 10" draggable="false">
+          <span class="photo-badge" aria-hidden="true">our little moments ♡</span>
+        </div>
+        <div class="album-controls">
+          <button class="round-button" id="previous" aria-label="Previous picture">←</button>
+          <p class="photo-count" id="photo-count" aria-live="polite">01 <span>/ 10</span></p>
+          <button class="round-button" id="slideshow" aria-label="Pause slideshow" aria-pressed="true">Ⅱ</button>
+          <button class="round-button" id="next" aria-label="Next picture">→</button>
+        </div>
+        <div class="dots" id="dots" aria-label="Pumili ng picture"></div>
+      </div>
+      <div class="song">
+        <div class="song-label"><span aria-hidden="true">♫</span><div><p>an apology</p><span>Keanne Nuevas · a song for you</span></div><span class="song-heart" aria-hidden="true">♡</span></div>
+        <div class="player" id="player"></div>
+        <p class="tiny">kung tahimik pa, tap play lang, mahal ♡</p>
+      </div>
+      <p class="handwritten">ikaw pa rin. palagi. 🤍</p>
+      <button class="text-button" id="start-over">Balik sa simula</button>
+    </section>
+
+    <section class="card letter" id="letter" aria-labelledby="letter-title" hidden>
+      <p class="eyebrow">take all the time you need</p>
+      <div class="small-heart" aria-hidden="true">🤍</div>
+      <h1 id="letter-title" tabindex="-1">naiintindihan ko, mahal.</h1>
+      <div class="letter-body">
+        <p>Mahal, sorry sa sakit na naidulot ko. Gusto kong makinig at maintindihan ang nararamdaman mo. Mahal kita, at gusto kong ayusin natin ito sa paraang komportable ka. 🤍</p>
+        <p>Naiintindihan ko kung kailangan mo muna ng oras, mahal. I’ll respect your space. Nandito lang ako kapag ready ka na, dahil alam kong hindi ganoon kadaling mawala yung sakit na naidulot ko sa taong pinakamamahal ko.</p>
+        <p>Hindi kita mamadaliin. Kapag handa ka na, gusto kong makinig at ipakita sa gawa na seryoso akong bumawi sa’yo.</p>
+      </div>
+      <p class="signature">Mahal na mahal kita,<br><strong>mahal chuu. ♡</strong></p>
+      <button class="button yes" id="back">Balik 🤍</button>
+    </section>
+    <noscript><p class="noscript">Please enable JavaScript para mabuksan ang pictures at message, mahal.</p></noscript>
+  </main>
+  <div id="heart-rain" aria-hidden="true"></div>
+</body>
+</html>
